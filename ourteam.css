@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.ourteam{
+    width:60%;
+    display: block;
+    text-align: center;
+    margin-top: 5vw;
+    
+}
+#header{
+    text-align: center;
+    font-size: 3vw;
+    color: rgb(27, 27, 112);
+    padding: 2vw;
+}
+.container{
+    width: 58%;
+    background-color: rgb(253, 252, 252); ;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.photo img{
+    margin:.2vw auto;
+    padding: .5vw;
+    border:none;
+    outline: none;
+    border-radius: 50%;
+    transition: ease-in-out;
+}
+.name{
+    color: rgb(117, 14, 35);
+    font-size: 2vw;
+    text-align: center;
+    transition: ease-in-out;
+    margin-top: .2vw;
+}
+.text p{
+    letter-spacing: 2px;
+    color: rgb(48, 44, 44);
+    text-align: center;
+    padding: .2vw;
+    margin:0 auto;
+    transition: ease-in-out;
+
+}
+.items{
+    width:100%;
+    text-align: center;
+    margin:0 auto;
+    display: none;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    padding:.1vw;
+    margin-top: 1vw;
+    transition: 3s ease-in-out;
+}
+.icons{
+    width:30%;
+    margin:2vw auto;
+    display: inline;
+    
+}
+.left,.right{
+    width: 100%;
+    display: inline;
+}
+.fas{
+    font-size: 2vw;
+    font-weight:bold;
+    padding:1vw;
+    color: rgb(3, 3, 70);
+    display: inline-block;
+    font-family: cursive;
+    cursor: pointer;
+    background-color: rgb(239, 237, 241);
+    margin-top: 1vw;
+}
+.active{
+    display: block;
+}
